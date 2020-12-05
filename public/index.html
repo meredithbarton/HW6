@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>HW 6</title>
+    </head>
+    <body>
+    	<h3>Add Workout</h3>
+    	<form>
+    		<label for="name">Name:</label>
+			<input type="text" name="name" id="name"></br>
+			<label for="reps">Reps:</label>
+			<input type="number" name="reps" id="reps"></br>
+			<label for="weight">Weight:</label>
+			<input type="number" name="weight" id="weight"></br>
+			<label for="date">Date:</label>
+			<input type="date" name="date" id="date" value="YYYY-MM-DD"></br>
+			<select name="units" id="units">
+				<option value="1">lbs</option>
+				<option value="0">kg</option>
+			</select>
+			<button type="submit" id="submit">Submit</button>
+    	</form>
+
+    	<h3>Workout Table</h3>
+    	<table id = "table">
+    		<tr>
+    			<th>Id</th>
+    			<th>Name</th>
+    			<th>Reps</th>
+    			<th>Weight</th>
+    			<th>Date</th>
+    			<th>Units</th>
+    			<th>Options</th>
+    		</tr>
+    	</table>
+    </body>
+    <script src="last_script.js" charset="utf-8"></script>
+
+  </html>
