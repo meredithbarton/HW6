@@ -5,7 +5,7 @@ var app = express();
 app.set('port', 3212);
 
 var CORS = require('cors');
-app.use(cors());
+app.use(CORS());
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}));
