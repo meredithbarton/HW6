@@ -1,4 +1,4 @@
-var dest = "flip3.engr.oregonstate.edu:3212/"
+var dest = "https://meredithbarton.github.io/HW6/"
 
 document.addEventListener('onload', displayTable);
 
